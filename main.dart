@@ -1,6 +1,9 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const StimaQuickApp());
 }
 
@@ -38,19 +41,17 @@ class HomeScreen extends StatelessWidget {
             Icon(Icons.power, size: 80, color: Colors.green),
             SizedBox(height: 20),
             Text(
-              'Welcome to StimaQuick',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              'Connected to Firebase!',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
-            Text('Your Smart Meter Balance & Reminders'),
-            SizedBox(height: 40),
-            Text('Next: Add your meter number'),
+            Text('Next: Add your meter & balance'),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // We'll add buy or add meter action here later
+          // Future buy button
         },
         child: const Icon(Icons.add),
       ),
