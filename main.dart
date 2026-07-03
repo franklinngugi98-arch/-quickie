@@ -41,18 +41,16 @@ class HomeScreen extends StatelessWidget {
             Icon(Icons.power, size: 80, color: Colors.green),
             SizedBox(height: 20),
             Text(
-              'Connected to Firebase!',
+              'Firebase Connected!',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
-            Text('Next: Add your meter & balance'),
+            Text('Your Smart Meter App is Ready to Build'),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // Future buy button
-        },
+        onPressed: () {},
         child: const Icon(Icons.add),
       ),
     );
