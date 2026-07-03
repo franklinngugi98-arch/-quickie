@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "852204191409",
+    "project_id": "stimaquick",
+    "storage_bucket": "stimaquick.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852204191409:android:490922988038fffb40ac90",
+        "android_client_info": {
+          "package_name": "com.fanana.stimaquick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlZPtNXpd9cIOt0M-tu281Jhvep7HrwDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
